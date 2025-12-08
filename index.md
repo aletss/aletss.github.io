@@ -2,7 +2,7 @@
 layout: home
 ---
 
-# Recientes
+##  *Recientes*
 
 <ul class="post-list">
 {% for post in site.posts limit:3 %}
@@ -14,5 +14,5 @@ layout: home
 </ul>
 
 <p style="text-align: center; margin-top: 30px;">
-  <a href="/posts/" style="display: inline-block; padding: 10px 20px; background-color: #0066cc; color: white; text-decoration: none; border-radius: 5px;">Todos los posts →</a>
+  <a href="/posts/" style="display: inline-block; padding: 10px 20px; background-color: #3175b9d7; color: white; text-decoration: none; border-radius: 2px;">Todos los posts →</a>
 </p>
