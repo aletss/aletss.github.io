@@ -3,11 +3,17 @@ layout: home
 title: "Blog de Aletss pa' los cuates"
 ---
 
-# Blog Posts
+## Recent Posts
 
-Últimas entradas:
-
-{% for post in site.posts %}
-  - [{{ post.title }}]({{ post.url }}){% if post.subtitle %}<small> (<em>{{ post.subtitle }}</em>) </small>{% endif %}<small> {{ post.date | date_to_string }}</small>
-    
+<ul class="post-list">
+{% for post in site.posts limit:3 %}
+  <li>
+    <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
+  </li>
 {% endfor %}
+</ul>
+
+<p style="text-align: center; margin-top: 30px;">
+  <a href="/posts/">View all posts →</a>
+</p>

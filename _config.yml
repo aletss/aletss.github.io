@@ -1,8 +1,6 @@
-title: "aletss's Blog"
+title: "Aletss's"
+subtitle: "pa' los cuates"
 description: "Blog personal para escribir lo que no debe ser leído (por aburrido)."
-remote_theme: niklasbuschmann/contrast
 plugins:
   - jekyll-remote-theme
-
-
-email: "551sosamurguia@gmail.com"
+permalink: /:title/
