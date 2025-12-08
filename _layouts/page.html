@@ -90,8 +90,7 @@
 </head>
 <body>
     <header>
-        <h1>{{ site.title }}</h1>
-        <p class="subtitle">{{ site.subtitle }}</p>
+        <h2 class="page-title">{{ page.title }}</h2>
         <nav>
             <a href="/">Home</a>
             <a href="/posts/">Posts</a>
@@ -99,7 +98,6 @@
     </header>
 
     <main>
-        <h2 class="page-title">{{ page.title }}</h2>
         {{ content }}
     </main>
 

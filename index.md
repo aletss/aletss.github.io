@@ -3,12 +3,13 @@ layout: home
 title: "Blog de Aletss pa' los cuates"
 ---
 
-## Recent Posts
+## Posts recientes
+
 
 <ul class="post-list">
 {% for post in site.posts limit:3 %}
   <li>
-    <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <h4 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h4>
     <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
   </li>
 {% endfor %}
