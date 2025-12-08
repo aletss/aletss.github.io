@@ -1,4 +1,5 @@
 title: "aletss's Blog"
 description: "A personal blog powered by Jekyll and GitHub Pages."
-theme: jekyll-theme-cayman
-baseurl: ""
+remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
+plugins:
+  - jekyll-remote-theme
