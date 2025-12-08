@@ -1,11 +1,8 @@
 title: "aletss's Blog"
 description: "Blog personal para escribir lo que no debe ser leído (por aburrido)."
-remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
+remote_theme: niklasbuschmann/contrast
 plugins:
   - jekyll-remote-theme
 
-exclude:
-  - about.html
-  - contact.html
 
 email: "551sosamurguia@gmail.com"
