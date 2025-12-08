@@ -1,0 +1,4 @@
+title: "aletss's Blog"
+description: "A personal blog powered by Jekyll and GitHub Pages."
+theme: minima
+baseurl: "" # this is important for user/organization pages
