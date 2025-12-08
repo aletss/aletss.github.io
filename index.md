@@ -4,12 +4,13 @@ title: "Blog de Aletss pa' los cuates"
 ---
 
 ## Posts recientes
+<br>
 
 
 <ul class="post-list">
 {% for post in site.posts limit:3 %}
   <li>
-    <h4 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+    <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
     <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
   </li>
 {% endfor %}
