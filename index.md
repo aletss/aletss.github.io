@@ -3,10 +3,6 @@ layout: home
 title: "Blog de Aletss pa' los cuates"
 ---
 
-## Posts recientes
-<br>
-
-
 <ul class="post-list">
 {% for post in site.posts limit:3 %}
   <li>
