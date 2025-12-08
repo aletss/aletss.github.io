@@ -1,6 +1,12 @@
+# Site settings
 title: "Blog de Aletss"
 subtitle: "pa' los cuates"
 description: "Blog personal para escribir lo que no debe ser leído (por aburrido)."
 plugins:
   - jekyll-remote-theme
+
+# Build settings
 permalink: /:title/
+
+# Language settings
+lang: es-MX

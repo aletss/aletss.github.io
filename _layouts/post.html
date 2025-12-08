@@ -92,7 +92,7 @@
         <article>
             <div class="post-header">
                 <h2 class="post-title">{{ page.title }}</h2>
-                <p class="post-date">{{ page.date | date: "%B %d, %Y" }}</p>
+                <p class="post-date">{% include date-spanish.html date=page.date %}</p>
             </div>
             <div class="post-content">
                 {{ content }}
