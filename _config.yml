@@ -3,3 +3,7 @@ description: "Blog personal para escribir lo que no debe ser leído (por aburrid
 remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
 plugins:
   - jekyll-remote-theme
+
+exclude:
+  - about.html
+  - contact.html
