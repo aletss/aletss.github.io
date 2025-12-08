@@ -15,5 +15,5 @@ title: "Blog de Aletss pa' los cuates"
 </ul>
 
 <p style="text-align: center; margin-top: 30px;">
-  <a href="/posts/">View all posts →</a>
+  <a href="/posts/">Ver todos los posts →</a>
 </p>
